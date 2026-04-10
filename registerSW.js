@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/WH40k-list-reader/sw.js', { scope: '/WH40k-list-reader/' })})}
